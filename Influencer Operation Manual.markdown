@@ -1,16 +1,15 @@
                                              Influencer Operation Manual
 
-####Contents
+##### Contents
 
 1 Specific Remarks<br> 
 2 Server List<br>
 3 Operation Method<br>
 4 How to restart the server<br>
-
     4.1 Emergency Contact
     4.2 Troubleshooting Report Submit
 
-##Specific Remarks
+## Specific Remarks
 
 ---------------------------------
   * Remember below points when delete on monitoring   
@@ -35,15 +34,15 @@ When there are many connections from the following IP and its connected from rel
 Monitoring Server: mnt01-a-tky-nagios-common　※Via the platform of Step Server
 
 ----
-| Down Work | Server Name | Global IP | Local IP | Server Info | PASSWD | Remarks |
-| :----------:|:------------:|:------------:|:------------:|:------------:|:----------:|
+|Down Work|Server Name|Global IP|Local IP|Server Info|PASSWD|Remarks|
+|:----------:|:------------:|:------------:|:------------:|:------------:|:----------:|:----------:|
 |※2|mnt01-a-tky-gateway-common|54.250.223.60|10.184.192.6|mnt01-a-tky-gateway-common server info|PASSWD|Step platform Server|
 |※2|mnt01-a-tky-nagios-common|-|10.184.232.10|mnt01-a-tky-nagios-common Server info|PASSWD|Monitoring Server|
 |Still Watching|Influencer-[IP]|-||-|PASSWD|AutoScaling Server
-|※2|prd01-a-tky-batch-influencer-uniqlo|-|10.184.17.46|prd01-a-tky-batch-influencer-uniqlo server info|PASSWD
-|※2|prd01-a-tky-admin-influencer-uniqlo server info|-|-|10.184.17.202|prd01-a-tky-admin-influencer-uniqlo server info|PASSWD	
-|※2|RDS_prd01-tky-influencer-uniqlo|-|-|-|-|RDS:<br> no Login 
-|※2|RDS_prd01-tky-influencer-uniqlo-read|-|-|-|-|RDS: <br>No Login
+|※2|prd01-a-tky-batch-influencer-uniqlo|-|10.184.17.46|prd01-a-tky-batch-influencer-uniqlo server info|PASSWD|-|
+|※2|prd01-a-tky-admin-influencer-uniqlo server info|-|10.184.17.202|prd01-a-tky-admin-influencer-uniqlo server info|PASSWD|-|	
+|※2|RDS_prd01-tky-influencer-uniqlo|-|-|-|-|RDS:<br> no Login| 
+|※2|RDS_prd01-tky-influencer-uniqlo-read|-|-|-|-|RDS: <br>No Login|
    
 The following contact of client:<br>
 「※1」 Mail contact + Phone contact + Restart event <br>
