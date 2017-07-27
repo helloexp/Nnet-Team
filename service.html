@@ -1,21 +1,22 @@
-è‡F
-‚PD•s‘«ƒT[ƒrƒX‚ÌƒŠƒXƒg‚æ‚è‘ÎÛ‚Ìgithub ƒŠƒ“ƒN‚ğŠm”F‚µ
-@‘ÎÛ‚ÌEC2,RDS‚ğƒŠƒXƒgƒAƒbƒv
+æ‰‹é †ï¼š
+ï¼‘ï¼ä¸è¶³ã‚µãƒ¼ãƒ“ã‚¹ã®ãƒªã‚¹ãƒˆã‚ˆã‚Šå¯¾è±¡ã®github ãƒªãƒ³ã‚¯ã‚’ç¢ºèªã—
+ã€€å¯¾è±¡ã®EC2,RDSã‚’ãƒªã‚¹ãƒˆã‚¢ãƒƒãƒ—
+gjghjghjgfjhf
+hvjhvjbjhb
+ï¼’ï¼è¨­å®šå†…å®¹ï¼ˆç›£è¦–é …ç›®ã€ã‚µãƒ¼ãƒ“ã‚¹åï¼‰ã®æº–å‚™
 
-‚QDİ’è“à—eiŠÄ‹€–ÚAƒT[ƒrƒX–¼j‚Ì€”õ
+ï¼“ï¼è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã®æº–å‚™ã€SecurityGroupã®ç¢ºèª
 
-‚RDİ’èƒtƒ@ƒCƒ‹‚Ì€”õASecurityGroup‚ÌŠm”F
-
-	@¨–{”ÔŠÂ‹«‚ÍG‚ç‚È‚¢‚Å‚­‚¾‚³‚¢
+	ã€€â†’æœ¬ç•ªç’°å¢ƒã¯è§¦ã‚‰ãªã„ã§ãã ã•ã„
 
 
-‚SD‚QD‚RD‚Ì“à—e‚É‚Â‚¢‚ÄŠm”F‚ªæ‚ê‚½‚ç–{”Ô”½‰f
+ï¼”ï¼ï¼’ï¼ï¼“ï¼ã®å†…å®¹ã«ã¤ã„ã¦ç¢ºèªãŒå–ã‚ŒãŸã‚‰æœ¬ç•ªåæ˜ 
 
-ã‹L‚Ìƒtƒ[‚ğŠeƒT[ƒrƒX‚²‚Æ‚É‡”Ô‚ÉÀ{
+ä¸Šè¨˜ã®ãƒ•ãƒ­ãƒ¼ã‚’å„ã‚µãƒ¼ãƒ“ã‚¹ã”ã¨ã«é †ç•ªã«å®Ÿæ–½
 
-‚SD’…è‘O‚ÌŠm”F‚Í‘åŠâ‚³‚ñ‚Ö @ooiwa3
+ï¼”ï¼ç€æ‰‹å‰ã®ç¢ºèªã¯å¤§å²©ã•ã‚“ã¸ @ooiwa3
 
-@zenke1 ˜AŒg‚µ‚Ä‚­‚¾‚³‚¢
+@zenke1 é€£æºã—ã¦ãã ã•ã„
 
 
 aws ec2 describe-instances --profile fr --region ap-northeast-1 --filters "Name=tag:Service,Values=monitoring" | jq '.Reservations[].Instances[] | {InstanceId, PrivateIpAddress,InstanceName: (.Tags[] | select(.Key=="Name").Value), ServiceName: (.Tags[] | select(.Key=="Service").Value)}' | sed -e 's/"//g' -e 's/,//g' -e 's/}//g' -e's/{//g' | awk -F " " '{ print $NF }'
@@ -35,8 +36,8 @@ sg-5731d331
 sg-ce34d6a8
 
 
-Šù‘¶‚ÌSecurityGruop‚ğæ“¾ and modify‚ÌÀ{
-‚RDmodifyŒã‚ÌSecurityGroup‚ğ
+æ—¢å­˜ã®SecurityGruopã‚’å–å¾— and modifyã®å®Ÿæ–½
+ï¼“ï¼modifyå¾Œã®SecurityGroupã‚’
 
 aws ec2 modify-instance-attribute --instance-id {instance id} --groups {security group id}
 
