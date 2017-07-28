@@ -1,4 +1,4 @@
-import os
+ testimport os
 
 DEFAULT_INDEX = 'Home'
 
