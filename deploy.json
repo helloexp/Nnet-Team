@@ -3,7 +3,7 @@
         "type": "S3",
         "target": {
           "master": "nnetsite",
-          "dev": "dev.mysite.com"
+          "dev": "nnetsite"
         }
     }
 }
