@@ -2,8 +2,8 @@
     "deploy": {
         "type": "S3",
         "target": {
-          "master": "nnetsite",
-          "dev": "nnetsite"
+          "master": "www.nnetsite.com",
+          "dev": "dev.nnetsite.com"
         }
     }
 }
