@@ -1,0 +1,9 @@
+{
+    "deploy": {
+        "type": "S3",
+        "target": {
+          "master": "www.mysite.com",
+          "dev": "dev.mysite.com"
+        }
+    }
+}
