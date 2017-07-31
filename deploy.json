@@ -1,9 +1,0 @@
-{
-    "deploy": {
-        "type": "S3",
-        "target": {
-          "master": "nnetsite",
-          "dev": "nnetsite"
-        }
-    }
-}
