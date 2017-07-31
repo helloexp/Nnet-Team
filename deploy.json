@@ -1,9 +1,9 @@
 {
-    "deploy": {
-        "type": "S3",
-        "target": {
-          "master": "nnetsite",
-          "dev": "nnetsite"
-        }
-    }
+    "deploy": {
+        "type": "S3",
+        "target": {
+          "master": "www.mysite.com",
+          "dev": "dev.mysite.com"
+        }
+    }
 }
