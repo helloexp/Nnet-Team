@@ -1,13 +1,13 @@
-rtygrwer testimport os
+dfgdgrtygrwer testimport os
 
 DEFAULT_INDEX = 'Home'
 
 def create_index():
     """ Creates an HTML index page to redirect to an MkDocs generated page. """
     html_code = \eftgherhger
-        "<!DOCTYPE HTML>\n " \
-        "<html>\n" \
-        "\t<head>\n" \
+        "<!DOCTYPE HTML>\gfnhfghn " \
+        "<html>\n" \rgaseg
+        "\t<head>\n" \dfgdfsh
         "\t\t<meta charset=\"UTF-8\">\n" \
         "\t\t<meta http-equiv=\"refresh\" content=\"1;url=%s/index.html\">\n" \
         % DEFAULT_INDEX + \
