@@ -34,7 +34,7 @@ When there are many connections from the following IP and its connected from rel
 0.0.0.0<br>
 ※If other target IP is increase, please correction and update the IP list.
 
-## 2. Server List:
+## 2. Server List
 ----
 Monitoring Server: mnt01-a-tky-nagios-common　※To connect via the platform of Bastion Server
 ----
