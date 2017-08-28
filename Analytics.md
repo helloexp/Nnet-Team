@@ -39,7 +39,7 @@ When there are many connections from the following IP and its connected from rel
 Monitoring Server: mnt01-a-vir-nagios-common　※To connect via the platform of Bastion Server
 ----
 | Down Work | Server Name | Global IP | Local IP | Server Info | PASSWD | Remarks |
-| :----------:|:------------:|:------------:|:------------:|:------------:|:----------:|
+| :----------:|:------------:|:------------:|:------------:|:------------:|:----------:|:----------:|
 |※1	|mnt01-a-vir-nagios-common	|-	|10.177.209.194	|mnt01-a-vir-nagios-common server info|PASSWD|monitoring server|
 |※2	|prd01-a-vir-batch-mdwh-uniqlo	|-	|10.177.19.225	|prd01-a-vir-batch-mdwh-uniqlo info|PASSWD||	
 |※2	|prd01-b-vir-batch-mdwh-uniqlo	|-	|10.177.23.22	prd01-a-vir-batch-mdwh-uniqlo info|PASSWD||	
