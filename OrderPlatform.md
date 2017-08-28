@@ -39,7 +39,7 @@ When there are many connections from the following IP and its connected from rel
 Monitoring Server: mnt01-a-tky-nagios-common　※To connect via the platform of Bastion Server
 ----
 | Down Work | Server Name | Global IP | Local IP | Server Info | PASSWD | Remarks |
-| :----------:|:------------:|:------------:|:------------:|:------------:|:----------:|
+| :----------:|:------------:|:------------:|:------------:|:------------:|:----------:|:----------:|
 |※2|mnt01-a-tky-gateway-common|54.250.223.60|10.184.192.6|mnt01-a-tky-gateway-common server info|PASSWD|Bastion platform Server|
 |※2|mnt01-a-tky-nagios-common|-|10.184.232.10|mnt01-a-tky-nagios-common Server info|PASSWD|Monitoring Server|
 |※2|prd01-a-tky-nodejsapi-order|-|10.184.19.238|prd01-a-tky-nodejsapi-order server info|PASSWD|Order Api Server Monitoring autoscale AMI instance base, so it may be unnecessary to monitor?|
@@ -50,7 +50,7 @@ Monitoring Server: mnt01-a-tky-nagios-common　※To connect via the platform of
 |※2|Dynamo_DB_prd11_orderpf_delete_order|-|-|-|-|Dynamo DB Tables and Index|
 |※2|Dynamo_DB_prd11_orderpf_hemmings_order|-|-|-|-|Dynamo DB Tables and Index|
 |※2|Dynamo_DB_prd11_orderpf_order_transaction|-|-|-|-|Dynamo DB Tables and Index|
-|※2|RDS_prd01-tky-order-fr|-|-|-|-|RDS:no login|
+|※2|RDS_prd01-tky-order-fr|-|-|-|-|RDS:Allow no login|
 |※2|prd11-tky-es-order-pf|-|-|-|-|Elasticsearch Service|
 |Monitoring observation|prd11-worker-order-pf|-|-|-|-|Elastic BeanStalk Worker<br>AutoScaling server group|
 |Monitoring observation|OrderPF_nodejsapi_[IP]|-|-|-|AutoScaling|
