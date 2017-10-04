@@ -64,6 +64,9 @@ sha256sum install-logging-agent.sh<br>
 #次のコマンドでインストール スクリプトを実行:<br>
 sudo bash install-logging-agent.sh
 
+#Logiingへ生成されていない必要なlog監視項目の「.conf」を下記に追加<br>
+cd /etc/google-fluentd/config.d/
+
 ■ エージェントをテストする
 
 #エージェントが実行されていることを確認:<br>
