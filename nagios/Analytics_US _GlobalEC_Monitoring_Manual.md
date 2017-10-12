@@ -113,7 +113,7 @@ Rollback ELB ⇒ Detaching operation is execute again
 ---
 Contact and send email to person in charge found from contact list in triage sheet by using Japanese and English template.
 <br>
-##### [By using Japanese and English email Template]
+#### [By using Japanese and English email Template](https://github.com/nnetisrafil/Nnet-Team/blob/master/Japanese%20and%20English%20email%20template.md)
 
 ■ Contact email address:
 
