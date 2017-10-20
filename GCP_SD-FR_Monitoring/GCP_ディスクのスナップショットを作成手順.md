@@ -39,7 +39,7 @@ lsblk
 
 ■ スナップショットを作成する<br> 
 
-* Projectのブラウザに　[gcloud shell]　ボタンをクリックし、[SDK] に移動する
+* Projectのブラウザに　[gcloud shell]　ボタンをクリックし、[SDK shell] に移動する
 
 #Disksの一覧を表示するのコマンドを実行<br>
 gcloud compute disks list
