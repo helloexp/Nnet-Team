@@ -44,7 +44,7 @@ lsblk
 #Disksの一覧を表示するのコマンドを実行<br>
 gcloud compute disks list
 
-#Zoneの一覧を表示するのコマンドを実行
+#Zoneの一覧を表示するのコマンドを実行<br>
 gcloud compute zones list
 
 #disksからスナップショットを作成するには下記コマンドを実行<br>
