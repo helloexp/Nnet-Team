@@ -10,13 +10,13 @@
 
 【GCLOUD使用】:
 
-#スナップショットを作成するには下記コマンドを実行
+#スナップショットを作成するには下記コマンドを実行<br>
 gcloud compute disks snapshot [DISK_NAME]
 
-#スナップショットの一覧を表示するのコマンドを実行
+#スナップショットの一覧を表示するのコマンドを実行<br>
 gcloud compute snapshots list
 
-#スナップショットについての情報を一覧表示するコマンドを実行
+#スナップショットについての情報を一覧表示するコマンドを実行<br>
 gcloud compute snapshots describe [snapshot-name]
 
 ■ インスタンスにディスクを追加する
@@ -37,16 +37,21 @@ gcloud compute snapshots describe [snapshot-name]
 
 【GCLOUD使用】:
 
-#ディスクをインスタンスに接続
+#ディスクをインスタンスに接続<br>
 gcloud compute instances attach-disk [INSTANCE-name] --disk=[DISK-name]
 
+#下記コマンドを使用して追加ディスクのファイルシステムを確認<br>
+gcloud compute ssh [INSTANCE-name]<br>
+df -h<br>
+lsblk
 
 ■ インスタンスでは、接続したディスク上のシステム確認
 
 【コンソール使用】:
 
 1. [VM インスタンス] ページに移動する 
-2. 新たにディスクを接続したディスクの横の [SSH] ボタンをクリックします。インスタンスに対する端末接続がブラウザに開く
+2. 新たにディスクを接続したディスクの横の [SSH] ボタンをクリックします。<br>
+インスタンスに対する端末接続がブラウザに開く
 
 #下記コマンドを使用して追加ディスクのファイルシステムを確認
 
