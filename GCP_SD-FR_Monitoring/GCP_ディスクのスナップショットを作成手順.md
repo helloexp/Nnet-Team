@@ -59,7 +59,7 @@ gcloud compute snapshots describe [snapshot-name]
 ■ 作成したスナップショットからディスクを作成する<br>
 
 #Diskを作成するには下記コマンドを実行<br>
-gcloud compute disks create [DISK-name] --source-snapshot=[snapshot-name]
+gcloud compute disks create [DISK-name] --source-snapshot=[snapshot-name] --zone=[ZONE]
 
 #Diskの一覧を表示するのコマンドを実行<br>
 gcloud compute disks list
@@ -70,7 +70,7 @@ gcloud compute disks list
 gcloud compute instances list
 
 #ディスクをインスタンスに接続<br>
-gcloud compute instances attach-disk [INSTANCE-name] --disk=[DISK-name]
+gcloud compute instances attach-disk [INSTANCE-name] --disk=[DISK-name] --zone=[ZONE]
 
 #下記コマンドを使用して追加ディスクのファイルシステムを確認<br>
 gcloud compute ssh [INSTANCE-name]<br>
